@@ -1,0 +1,11 @@
+/.gradle/
+/build/
+.settings
+./dist
+/log
+/out
+*.crt
+*.key
+.idea
+*.iml
+.DS_Store
