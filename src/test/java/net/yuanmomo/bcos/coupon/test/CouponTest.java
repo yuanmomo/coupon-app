@@ -23,6 +23,8 @@ public class CouponTest {
 
     private static CouponClient client = null;
 
+    // 合约地址不为空，则不部署合约。
+    // 合约地址为空，则自动部署合约，需要手动的修改这个合约地址。
     private static String contractAddress = "0xdbace0aac06019efc3960fd95a482ef9c8501ae7";
 
     private static final BigInteger _0 = BigInteger.valueOf(0);
